@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DVAC</string>
+    <string name="change_password">Change Password</string>
+    <string name="import_database">Import Database</string>
+    <string name="export_database">Export Database</string>
+    <string name="add_password">Add New Password</string>
+    <string name="fetch_xml_format">Fetch XML Format</string>
+    <string name="backdoor">BACKDOOR</string>
+    <string name="username">Username</string>
+    <string name="delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="password">Password</string>
+    <string name="existing_password">Existing Password</string>
+    <string name="new_password">New Password</string>
+    <string name="fetch_xml">Fetch XML</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register_password">Register Password</string>
+    <string name="delete_password">Delete Password</string>
+    <string name="register">Register</string>
+    <string name="JafarPathan">An intentionally vulnerable Android application to demonstrate vulnerabilities in application components. By Jafar Pathan (https://github.com/zinja-coder)</string>
+    <string name="welcome_to_dvac">Welcome to DVAC!</string>
+    <string name="go_to_github">Go to Github</string>
+</resources>

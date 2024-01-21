@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zin.dvac">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/face"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/face"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DVAC">
+        <activity android:name=".FetchXmlActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".PasswordDetailActivity" />
+        <activity android:name=".ChangePasswordActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="com.zin.dvac.ChangePassword" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+    </activity>
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".PasswordManagerActivity" android:exported="true"/>
+        <activity android:name=".AddPasswordActivity" />
+
+        <!-- Add other activities as needed -->
+
+        <provider
+            android:name=".PasswordProvider"
+            android:authorities="com.zin.dvac.provider"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name=".ChangePasswordReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.zin.dvac.CHANGE_PASSWORD_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".PasswordSocketService"
+            android:exported="true"
+            android:enabled="true">
+        </service>
+
+        <service
+            android:name=".PasswordExportService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.zin.dvac.PASSWORD_EXPORT_ACTION" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

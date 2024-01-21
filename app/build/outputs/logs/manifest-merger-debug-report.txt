@@ -1,0 +1,386 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-66:12
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-66:12
+MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zinjacoder/.gradle/caches/transforms-3/61638b3bc388db45777a4a3e51ffbc77/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zinjacoder/.gradle/caches/transforms-3/9c2056dd2a18c69b65c954a77c0c6fb0/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zinjacoder/.gradle/caches/transforms-3/a5826e1f1c7470b2f790947f09ee891c/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/zinjacoder/.gradle/caches/transforms-3/e2293e6521d53c25089a220adae13fae/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/zinjacoder/.gradle/caches/transforms-3/98e9ecffeb35016087471a4816fcb6cb/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zinjacoder/.gradle/caches/transforms-3/964f4625cbf0944d67128fd9d73473b9/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /home/zinjacoder/.gradle/caches/transforms-3/ed0566a24bddc37973e7c756ca05094c/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/40180e615cc2e6beca07265e89415b6d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/553a5543bf7fa5899e0d6a6a313a127f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/2219217c6caba3dfa5c3f59636ab8795/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/6406a7cf71977d0830ce07a1cc783f67/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/956fdf218c60a04d57237b089ca6387e/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/23ca251e8c9391715c7947b3329020d9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/917be77d5831fb7a2f23204842d3d127/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/bac58f080242786bda3393ebd46fed84/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/bf432af2e5df2472b127ea6a360c6f9c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zinjacoder/.gradle/caches/transforms-3/e1f61ced43a715599f55e91675796c6a/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/5bc6b521e332e32570d57034b4d106b4/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/7d5642472ee348d59527e9ecc976d788/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/8789a71f678bb2c18c1eb27677715a27/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/21fdd346451f331a7c28a98d9694d4b4/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/ba6c79f6011b9b3ad87a32d0f8d156fe/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/ce7f33608f39d451d32f678a34475a8e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/f664c7448d2f4569d62d3cb6c5e1916e/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/1adea619ea7f3c64c170f1d01a902c8e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/c0adfe270c3613ab4e9ea51a13ed6719/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/20fa01a888a2ee9d44d72e271ea08b55/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/7a8817a261ce699937b1654dc4c4a8d9/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/73e18e11f665c3d64365a7bee1137e9d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/2c6b542aa6b3efa197ad000fcf11aebe/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/ac1efaf989051126a8ce6fd9189dfd93/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zinjacoder/.gradle/caches/transforms-3/48d9bec313ad9a86f66ca5a6a70d2b22/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/17f3d1b82914075fc5adaacb7ecf9191/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/b05bc1d238f5abdce9fc152888622789/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/8919202c2b9d82aeb545839114fb800e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/80dd9df765088b7255eb0ea3846ef587/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/0a037b42cb10513c37b958c93435c4da/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:3:5-27
+		INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:8:5-64:19
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:8:5-64:19
+MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zinjacoder/.gradle/caches/transforms-3/61638b3bc388db45777a4a3e51ffbc77/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zinjacoder/.gradle/caches/transforms-3/61638b3bc388db45777a4a3e51ffbc77/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/73e18e11f665c3d64365a7bee1137e9d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/73e18e11f665c3d64365a7bee1137e9d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/ac1efaf989051126a8ce6fd9189dfd93/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/ac1efaf989051126a8ce6fd9189dfd93/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:12:9-43
+	android:icon
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:10:9-38
+	android:allowBackup
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:14:9-42
+activity#com.zin.dvac.FetchXmlActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:15:9-54
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:15:19-51
+activity#com.zin.dvac.RegisterActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:16:9-54
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:16:19-51
+activity#com.zin.dvac.PasswordDetailActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:17:9-60
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:17:19-57
+activity#com.zin.dvac.ChangePasswordActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:9-23:16
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:58-81
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:19-57
+intent-filter#action:name:com.zin.dvac.ChangePassword+category:name:android.intent.category.DEFAULT
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:19:13-22:29
+action#com.zin.dvac.ChangePassword
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:17-70
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:25-67
+category#android.intent.category.DEFAULT
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:27-73
+activity#com.zin.dvac.LoginActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:9-29:20
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:49-72
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:13-28:25
+action#android.intent.action.MAIN
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:26:13-65
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:26:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:23-70
+activity#com.zin.dvac.PasswordManagerActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:30:9-84
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:30:59-82
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:30:19-58
+activity#com.zin.dvac.AddPasswordActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:31:9-57
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:31:19-54
+provider#com.zin.dvac.PasswordProvider
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:9-39:39
+	android:enabled
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:13-35
+	android:authorities
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:37:13-56
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:36:13-45
+receiver#com.zin.dvac.ChangePasswordReceiver
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:41:9-49:20
+	android:enabled
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:43:13-36
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:42:13-51
+intent-filter#action:name:com.zin.dvac.CHANGE_PASSWORD_ACTION+category:name:android.intent.category.DEFAULT
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:45:13-48:29
+action#com.zin.dvac.CHANGE_PASSWORD_ACTION
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:46:25-75
+service#com.zin.dvac.PasswordSocketService
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:51:9-54:19
+	android:enabled
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:51:18-55
+service#com.zin.dvac.PasswordExportService
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:56:9-63:19
+	android:enabled
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:58:13-35
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:57:13-50
+intent-filter#action:name:com.zin.dvac.PASSWORD_EXPORT_ACTION
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:60:13-62:29
+action#com.zin.dvac.PASSWORD_EXPORT_ACTION
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:61:17-78
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:61:25-75
+uses-sdk
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zinjacoder/.gradle/caches/transforms-3/61638b3bc388db45777a4a3e51ffbc77/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zinjacoder/.gradle/caches/transforms-3/61638b3bc388db45777a4a3e51ffbc77/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zinjacoder/.gradle/caches/transforms-3/9c2056dd2a18c69b65c954a77c0c6fb0/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zinjacoder/.gradle/caches/transforms-3/9c2056dd2a18c69b65c954a77c0c6fb0/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zinjacoder/.gradle/caches/transforms-3/a5826e1f1c7470b2f790947f09ee891c/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zinjacoder/.gradle/caches/transforms-3/a5826e1f1c7470b2f790947f09ee891c/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/zinjacoder/.gradle/caches/transforms-3/e2293e6521d53c25089a220adae13fae/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/zinjacoder/.gradle/caches/transforms-3/e2293e6521d53c25089a220adae13fae/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/zinjacoder/.gradle/caches/transforms-3/98e9ecffeb35016087471a4816fcb6cb/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/zinjacoder/.gradle/caches/transforms-3/98e9ecffeb35016087471a4816fcb6cb/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zinjacoder/.gradle/caches/transforms-3/964f4625cbf0944d67128fd9d73473b9/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zinjacoder/.gradle/caches/transforms-3/964f4625cbf0944d67128fd9d73473b9/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /home/zinjacoder/.gradle/caches/transforms-3/ed0566a24bddc37973e7c756ca05094c/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/zinjacoder/.gradle/caches/transforms-3/ed0566a24bddc37973e7c756ca05094c/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/40180e615cc2e6beca07265e89415b6d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/40180e615cc2e6beca07265e89415b6d/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/553a5543bf7fa5899e0d6a6a313a127f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/553a5543bf7fa5899e0d6a6a313a127f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/2219217c6caba3dfa5c3f59636ab8795/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/2219217c6caba3dfa5c3f59636ab8795/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/6406a7cf71977d0830ce07a1cc783f67/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/6406a7cf71977d0830ce07a1cc783f67/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/956fdf218c60a04d57237b089ca6387e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/956fdf218c60a04d57237b089ca6387e/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/23ca251e8c9391715c7947b3329020d9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/23ca251e8c9391715c7947b3329020d9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/917be77d5831fb7a2f23204842d3d127/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/917be77d5831fb7a2f23204842d3d127/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/bac58f080242786bda3393ebd46fed84/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/bac58f080242786bda3393ebd46fed84/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/bf432af2e5df2472b127ea6a360c6f9c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/bf432af2e5df2472b127ea6a360c6f9c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zinjacoder/.gradle/caches/transforms-3/e1f61ced43a715599f55e91675796c6a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zinjacoder/.gradle/caches/transforms-3/e1f61ced43a715599f55e91675796c6a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/5bc6b521e332e32570d57034b4d106b4/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/5bc6b521e332e32570d57034b4d106b4/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/7d5642472ee348d59527e9ecc976d788/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/7d5642472ee348d59527e9ecc976d788/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/8789a71f678bb2c18c1eb27677715a27/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/8789a71f678bb2c18c1eb27677715a27/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/21fdd346451f331a7c28a98d9694d4b4/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/21fdd346451f331a7c28a98d9694d4b4/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/ba6c79f6011b9b3ad87a32d0f8d156fe/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/ba6c79f6011b9b3ad87a32d0f8d156fe/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/ce7f33608f39d451d32f678a34475a8e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/ce7f33608f39d451d32f678a34475a8e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/f664c7448d2f4569d62d3cb6c5e1916e/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/f664c7448d2f4569d62d3cb6c5e1916e/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/1adea619ea7f3c64c170f1d01a902c8e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/1adea619ea7f3c64c170f1d01a902c8e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/c0adfe270c3613ab4e9ea51a13ed6719/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/zinjacoder/.gradle/caches/transforms-3/c0adfe270c3613ab4e9ea51a13ed6719/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/20fa01a888a2ee9d44d72e271ea08b55/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/20fa01a888a2ee9d44d72e271ea08b55/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/7a8817a261ce699937b1654dc4c4a8d9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/7a8817a261ce699937b1654dc4c4a8d9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/73e18e11f665c3d64365a7bee1137e9d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/73e18e11f665c3d64365a7bee1137e9d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/2c6b542aa6b3efa197ad000fcf11aebe/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/2c6b542aa6b3efa197ad000fcf11aebe/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/ac1efaf989051126a8ce6fd9189dfd93/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/ac1efaf989051126a8ce6fd9189dfd93/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zinjacoder/.gradle/caches/transforms-3/48d9bec313ad9a86f66ca5a6a70d2b22/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zinjacoder/.gradle/caches/transforms-3/48d9bec313ad9a86f66ca5a6a70d2b22/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/17f3d1b82914075fc5adaacb7ecf9191/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/17f3d1b82914075fc5adaacb7ecf9191/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/b05bc1d238f5abdce9fc152888622789/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/b05bc1d238f5abdce9fc152888622789/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/8919202c2b9d82aeb545839114fb800e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/8919202c2b9d82aeb545839114fb800e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/80dd9df765088b7255eb0ea3846ef587/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/zinjacoder/.gradle/caches/transforms-3/80dd9df765088b7255eb0ea3846ef587/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/0a037b42cb10513c37b958c93435c4da/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/0a037b42cb10513c37b958c93435c4da/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/73e18e11f665c3d64365a7bee1137e9d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zinjacoder/.gradle/caches/transforms-3/73e18e11f665c3d64365a7bee1137e9d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.zin.dvac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.zin.dvac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
