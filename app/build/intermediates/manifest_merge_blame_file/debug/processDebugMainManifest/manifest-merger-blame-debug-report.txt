@@ -17,212 +17,230 @@
 13    <uses-permission android:name="android.permission.INTERNET" />
 13-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:5-67
 13-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:22-64
-14
-15    <permission
-15-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-16        android:name="com.zin.dvac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-16-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-17        android:protectionLevel="signature" />
-17-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-18
-19    <uses-permission android:name="com.zin.dvac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-19-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-19-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-20
-21    <application
-21-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:8:5-64:19
-22        android:allowBackup="true"
-22-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:9:9-35
-23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-23-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-24        android:debuggable="true"
-25        android:extractNativeLibs="false"
-26        android:icon="@drawable/face"
-26-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:10:9-38
-27        android:label="@string/app_name"
-27-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:11:9-41
-28        android:roundIcon="@drawable/face"
-28-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:12:9-43
-29        android:supportsRtl="true"
-29-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:13:9-35
-30        android:theme="@style/Theme.DVAC" >
-30-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:14:9-42
-31        <activity android:name="com.zin.dvac.FetchXmlActivity" />
-31-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:15:9-54
-31-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:15:19-51
-32        <activity android:name="com.zin.dvac.RegisterActivity" />
-32-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:16:9-54
-32-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:16:19-51
-33        <activity android:name="com.zin.dvac.PasswordDetailActivity" />
-33-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:17:9-60
-33-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:17:19-57
-34        <activity
-34-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:9-23:16
-35            android:name="com.zin.dvac.ChangePasswordActivity"
-35-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:19-57
-36            android:exported="true" >
-36-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:58-81
-37            <intent-filter>
-37-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:19:13-22:29
-38                <action android:name="com.zin.dvac.ChangePassword" />
-38-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:17-70
-38-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:25-67
-39
-40                <category android:name="android.intent.category.DEFAULT" />
-40-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:17-76
-40-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:27-73
-41            </intent-filter>
-42        </activity>
-43        <activity
-43-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:9-29:20
-44            android:name="com.zin.dvac.LoginActivity"
-44-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:19-48
-45            android:exported="true" >
-45-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:49-72
-46            <intent-filter>
-46-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:13-28:25
-47                <action android:name="android.intent.action.MAIN" />
-47-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:26:13-65
-47-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:26:21-62
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:13-73
-49-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:23-70
+14    <uses-permission android:name="android.permission.READ_CONTACTS" />
+14-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:7:5-72
+14-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:7:22-69
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.zin.dvac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.zin.dvac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:9:5-72:19
+23        android:allowBackup="true"
+23-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@drawable/face"
+27-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:11:9-38
+28        android:label="@string/app_name"
+28-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:12:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:15:9-69
+30        android:roundIcon="@drawable/face"
+30-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:13:9-43
+31        android:supportsRtl="true"
+31-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:14:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.DVAC"
+33-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:17:9-42
+34        android:usesCleartextTraffic="true" >
+34-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:16:9-44
+35        <activity android:name="com.zin.dvac.FetchXmlActivity" />
+35-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:9-54
+35-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:19-51
+36        <activity android:name="com.zin.dvac.RegisterActivity" />
+36-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:19:9-54
+36-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:19:19-51
+37        <activity android:name="com.zin.dvac.PasswordDetailActivity" />
+37-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:9-60
+37-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:19-57
+38        <activity
+38-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:9-31:16
+39            android:name="com.zin.dvac.ChangePasswordActivity"
+39-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:19-57
+40            android:exported="true" >
+40-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:58-81
+41            <intent-filter>
+41-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:22:13-30:29
+42                <action android:name="android.intent.action.VIEW" />
+42-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:23:17-69
+42-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:23:25-66
+43
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:17-76
+44-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:27-73
+45                <category android:name="android.intent.category.BROWSABLE" />
+45-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:17-78
+45-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:27-75
+46                <!-- Specify the scheme, host, and pathPrefix for your deep link -->
+47                <data
+47-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:17-29:51
+48                    android:pathPrefix="/reset"
+48-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:29:21-48
+49                    android:scheme="dvac" />
+49-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:28:21-42
 50            </intent-filter>
 51        </activity>
 52        <activity
-52-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:30:9-84
-53            android:name="com.zin.dvac.PasswordManagerActivity"
-53-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:30:19-58
-54            android:exported="true" />
-54-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:30:59-82
-55        <activity android:name="com.zin.dvac.AddPasswordActivity" />
-55-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:31:9-57
-55-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:31:19-54
-56
-57        <!-- Add other activities as needed -->
-58
-59        <provider
-59-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:9-39:39
-60            android:name="com.zin.dvac.PasswordProvider"
-60-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:36:13-45
-61            android:authorities="com.zin.dvac.provider"
-61-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:37:13-56
-62            android:enabled="true"
-62-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:13-35
+52-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:32:9-37:20
+53            android:name="com.zin.dvac.LoginActivity"
+53-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:32:19-48
+54            android:exported="true" >
+54-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:32:49-72
+55            <intent-filter>
+55-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:33:13-36:25
+56                <action android:name="android.intent.action.MAIN" />
+56-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:34:13-65
+56-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:34:21-62
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:13-73
+58-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:23-70
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:9-84
+62            android:name="com.zin.dvac.PasswordManagerActivity"
+62-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:19-58
 63            android:exported="true" />
-63-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:13-36
-64
-65        <receiver
-65-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:41:9-49:20
-66            android:name="com.zin.dvac.ChangePasswordReceiver"
-66-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:42:13-51
-67            android:enabled="true"
-67-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:44:13-35
-68            android:exported="true" >
-68-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:43:13-36
-69            <intent-filter>
-69-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:45:13-48:29
-70                <action android:name="com.zin.dvac.CHANGE_PASSWORD_ACTION" />
-70-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:46:17-77
-70-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:46:25-75
-71
-72                <category android:name="android.intent.category.DEFAULT" />
-72-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:17-76
-72-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:27-73
-73            </intent-filter>
-74        </receiver>
-75
-76        <service
-76-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:51:9-54:19
-77            android:name="com.zin.dvac.PasswordSocketService"
-77-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:51:18-55
-78            android:enabled="true"
-78-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:53:13-35
-79            android:exported="true" >
-79-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:52:13-36
-80        </service>
-81        <service
-81-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:56:9-63:19
-82            android:name="com.zin.dvac.PasswordExportService"
-82-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:57:13-50
-83            android:enabled="true"
-83-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:58:13-35
-84            android:exported="true" >
-84-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:59:13-36
-85            <intent-filter>
-85-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:60:13-62:29
-86                <action android:name="com.zin.dvac.PASSWORD_EXPORT_ACTION" />
-86-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:61:17-78
-86-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:61:25-75
-87            </intent-filter>
-88        </service>
-89
-90        <provider
-90-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-91            android:name="androidx.startup.InitializationProvider"
-91-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-92            android:authorities="com.zin.dvac.androidx-startup"
-92-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-93            android:exported="false" >
-93-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-94            <meta-data
-94-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-95-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-96                android:value="androidx.startup" />
-96-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-97            <meta-data
-97-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-98-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-99                android:value="androidx.startup" />
-99-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-100            <meta-data
-100-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-101                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-102                android:value="androidx.startup" />
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-103        </provider>
-104
-105        <receiver
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-106            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-106-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-107            android:directBootAware="false"
-107-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-108            android:enabled="true"
-108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-109            android:exported="true"
-109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-110            android:permission="android.permission.DUMP" >
-110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-111            <intent-filter>
-111-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-112                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-112-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-113            </intent-filter>
-114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-115                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-116            </intent-filter>
-117            <intent-filter>
-117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-118                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-119            </intent-filter>
+63-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:59-82
+64        <activity android:name="com.zin.dvac.AddPasswordActivity" />
+64-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:9-57
+64-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:19-54
+65
+66        <!-- Add other activities as needed -->
+67
+68        <provider
+68-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:43:9-47:39
+69            android:name="com.zin.dvac.PasswordProvider"
+69-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:44:13-45
+70            android:authorities="com.zin.dvac.provider"
+70-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:45:13-56
+71            android:enabled="true"
+71-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:46:13-35
+72            android:exported="true" />
+72-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:47:13-36
+73
+74        <receiver
+74-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:49:9-57:20
+75            android:name="com.zin.dvac.ChangePasswordReceiver"
+75-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:50:13-51
+76            android:enabled="true"
+76-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:52:13-35
+77            android:exported="true" >
+77-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:51:13-36
+78            <intent-filter>
+78-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:53:13-56:29
+79                <action android:name="com.zin.dvac.CHANGE_PASSWORD_ACTION" />
+79-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:54:17-77
+79-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:54:25-75
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:17-76
+81-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:27-73
+82            </intent-filter>
+83        </receiver>
+84
+85        <service
+85-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:59:9-62:19
+86            android:name="com.zin.dvac.PasswordSocketService"
+86-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:59:18-55
+87            android:enabled="true"
+87-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:61:13-35
+88            android:exported="true" >
+88-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:60:13-36
+89        </service>
+90        <service
+90-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:64:9-71:19
+91            android:name="com.zin.dvac.PasswordExportService"
+91-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:65:13-50
+92            android:enabled="true"
+92-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:66:13-35
+93            android:exported="true" >
+93-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:67:13-36
+94            <intent-filter>
+94-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:68:13-70:29
+95                <action android:name="com.zin.dvac.PASSWORD_EXPORT_ACTION" />
+95-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:69:17-78
+95-->/home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:69:25-75
+96            </intent-filter>
+97        </service>
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+101            android:authorities="com.zin.dvac.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.2.0] /home/zinjacoder/.gradle/caches/transforms-3/028d05ac3e6862081c42401cc8bee44b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/zinjacoder/.gradle/caches/transforms-3/c758d83e0fdd3d4d9d89bdf6b590fb5d/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+109            <meta-data
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+110                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+111                android:value="androidx.startup" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+112        </provider>
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 120            <intent-filter>
-120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-121                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 122            </intent-filter>
-123        </receiver>
-124    </application>
-125
-126</manifest>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/zinjacoder/.gradle/caches/transforms-3/c37c16e8a257a3f43453304e0687e23a/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>

@@ -1,10 +1,14 @@
 package com.zin.dvac;
 
 import android.Manifest;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,6 +18,8 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -27,6 +33,11 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.List;
 
+import android.database.Cursor;
+import android.provider.ContactsContract;
+
+import androidx.annotation.NonNull;
+
 public class PasswordManagerActivity extends AppCompatActivity {
 
     private static final int REQUEST_PERMISSIONS_CODE = 100;
@@ -36,6 +47,12 @@ public class PasswordManagerActivity extends AppCompatActivity {
     private List<Password> passwordList;
     private PasswordAdapter passwordAdapter;
     private DatabaseHelper databaseHelper;
+
+    private static final String CHANNEL_ID = "PasswordManagerChannel";
+    private static final int NOTIFICATION_ID = 1;
+
+    private static final int READ_CONTACTS_PERMISSION_REQUEST_CODE = 1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +67,7 @@ public class PasswordManagerActivity extends AppCompatActivity {
 
         initializePasswordList();
         initializeRecyclerView();
+        createNotificationChannel();
 
         Button btnAddPassword = findViewById(R.id.btnAddPassword);
         Button btnExport = findViewById(R.id.btnExport);
@@ -59,10 +77,23 @@ public class PasswordManagerActivity extends AppCompatActivity {
         copyRawResourceToDataDir(R.raw.secret, SECRET_FILE_NAME);
         Button btnChangePassword = findViewById(R.id.btnChangePassword); // Added button
 
+        // Check if the READ_CONTACTS permission is not granted
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M &&
+                checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+
+            // Request the READ_CONTACTS permission
+            requestPermissions(new String[]{Manifest.permission.READ_CONTACTS}, READ_CONTACTS_PERMISSION_REQUEST_CODE);
+        } else {
+            // Permission has already been granted
+            readContacts();
+        }
+
         // FAB click listener
         FloatingActionButton fabOpenGitHub = findViewById(R.id.fabOpenGitHub);
         fabOpenGitHub.setOnClickListener(view -> openGitHubWebsite());
 
+        // Create a notification on activity creation
+        createAddPasswordNotification();
 
         btnAddPassword.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,6 +136,34 @@ public class PasswordManagerActivity extends AppCompatActivity {
                 importDatabase();
             }
         });
+    }
+
+
+
+    // Method to read contacts once permission is granted
+    private void readContacts() {
+        // Query the Contacts Provider
+        Cursor cursor = getContentResolver().query(
+                ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
+                null,
+                null,
+                null,
+                null
+        );
+
+        if (cursor != null && cursor.moveToFirst()) {
+            do {
+                // Extract contact information from the cursor
+                String name = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+                String phoneNumber = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+
+                // Do something with the contact information (e.g., display it, store it, etc.)
+                Log.d("Contact", "Name: " + name + ", Phone Number: " + phoneNumber);
+            } while (cursor.moveToNext());
+
+            // Close the cursor when done
+            cursor.close();
+        }
     }
 
     private void exportDatabase() {
@@ -192,6 +251,15 @@ public class PasswordManagerActivity extends AppCompatActivity {
                 Toast.makeText(this, "Permission denied", Toast.LENGTH_SHORT).show();
             }
         }
+        if (requestCode == READ_CONTACTS_PERMISSION_REQUEST_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // Permission granted, proceed with reading contacts
+                readContacts();
+            } else {
+                // Permission denied, handle accordingly (e.g., show a message)
+                Toast.makeText(this, "Permission denied. Cannot read contacts.", Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 
     @Override
@@ -247,7 +315,43 @@ public class PasswordManagerActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
+    private void createAddPasswordNotification() {
+        // Create an intent to start the AddPasswordActivity
+        Intent addPasswordIntent = new Intent();
+        addPasswordIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        PendingIntent pendingIntent = PendingIntent.getActivity(
+                this,
+                0,
+                addPasswordIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT
+        );
 
+        // Build the notification
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                .setSmallIcon(R.drawable.icon)
+                .setContentTitle("Password Manager")
+                .setContentText("Add password now")
+                .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                .setContentIntent(pendingIntent)
+                .setAutoCancel(true);
+
+        // Show the notification
+        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
+        notificationManager.notify(NOTIFICATION_ID, notificationBuilder.build());
+    }
+
+    private void createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            CharSequence name = "PasswordManagerChannel";
+            String description = "Channel for Password Manager Notifications";
+            int importance = NotificationManager.IMPORTANCE_DEFAULT;
+            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, importance);
+            channel.setDescription(description);
+
+            NotificationManager notificationManager = getSystemService(NotificationManager.class);
+            notificationManager.createNotificationChannel(channel);
+        }
+    }
 
     // Function to copy raw resource file to app's data directory
     private void copyRawResourceToDataDir(int resourceId, String fileName) {

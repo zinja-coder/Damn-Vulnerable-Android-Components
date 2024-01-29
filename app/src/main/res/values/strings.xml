@@ -21,4 +21,5 @@
     <string name="JafarPathan">An intentionally vulnerable Android application to demonstrate vulnerabilities in application components. By Jafar Pathan (https://github.com/zinja-coder)</string>
     <string name="welcome_to_dvac">Welcome to DVAC!</string>
     <string name="go_to_github">Go to Github</string>
+    <string name="forgot_password">Forgot Password?</string>
 </resources>

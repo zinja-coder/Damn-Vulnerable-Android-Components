@@ -3175,6 +3175,7 @@ id btnChangePassword
 id btnDelete
 id btnExport
 id btnFetchXml
+id btnForgotPassword
 id btnImport
 id btnLayouts
 id btnLogin
@@ -3853,6 +3854,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fetch_xml
 string fetch_xml_format
+string forgot_password
 string go_to_github
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -5249,3 +5251,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

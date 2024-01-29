@@ -12,6 +12,7 @@ id btnChangePassword
 id btnDelete
 id btnExport
 id btnFetchXml
+id btnForgotPassword
 id btnImport
 id btnLayouts
 id btnLogin
@@ -56,6 +57,7 @@ string existing_password
 string export_database
 string fetch_xml
 string fetch_xml_format
+string forgot_password
 string go_to_github
 string import_database
 string login
@@ -68,3 +70,4 @@ string welcome_to_dvac
 style Theme.DVAC
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

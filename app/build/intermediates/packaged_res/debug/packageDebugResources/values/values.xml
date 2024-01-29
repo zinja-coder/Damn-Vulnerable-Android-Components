@@ -15,6 +15,7 @@
     <string name="export_database">Export Database</string>
     <string name="fetch_xml">Fetch XML</string>
     <string name="fetch_xml_format">Fetch XML Format</string>
+    <string name="forgot_password">Forgot Password?</string>
     <string name="go_to_github">Go to Github</string>
     <string name="import_database">Import Database</string>
     <string name="login">Login</string>
