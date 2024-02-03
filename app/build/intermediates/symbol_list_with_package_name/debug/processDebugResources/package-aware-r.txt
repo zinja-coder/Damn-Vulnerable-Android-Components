@@ -3262,8 +3262,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etCurrentPassword
 id etDescription
-id etExistingPassword
 id etNewPassword
 id etPassword
 id etUsername
@@ -3357,6 +3357,16 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menu_item1
+id menu_item10
+id menu_item2
+id menu_item3
+id menu_item4
+id menu_item5
+id menu_item6
+id menu_item7
+id menu_item8
+id menu_item9
 id message
 id middle
 id mini
@@ -3585,6 +3595,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id webView
 id welcomeIntro
 id welcomeRegister
 id west
@@ -3717,6 +3728,7 @@ layout activity_login
 layout activity_password_detail
 layout activity_password_manager
 layout activity_register
+layout activity_webview
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3795,6 +3807,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu drawer_menu
 plurals mtrl_badge_content_description
 raw secret
 string JafarPathan
@@ -3841,6 +3854,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string close_drawer
 string delete
 string delete_password
 string description
@@ -3962,6 +3976,7 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string new_password
+string open_drawer
 string password
 string password_toggle_content_description
 string path_password_eye

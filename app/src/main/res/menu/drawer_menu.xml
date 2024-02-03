@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="Exported Activities"/>
+    <item
+        android:id="@+id/menu_item2"
+        android:title="Shared Preferences"/>
+    <item
+        android:id="@+id/menu_item3"
+        android:title="Broadcast Sniffing"/>
+    <item
+        android:id="@+id/menu_item4"
+        android:title="SQLI Content Provider"/>
+    <item
+        android:id="@+id/menu_item5"
+        android:title="Path Traversal Content Provider"/>
+    <item
+        android:id="@+id/menu_item6"
+        android:title="Exposed Service over Messaging"/>
+    <item
+        android:id="@+id/menu_item7"
+        android:title="Exposed Service over Open Port"/>
+    <item
+        android:id="@+id/menu_item8"
+        android:title="Deep Link Hijacking"/>
+    <item
+        android:id="@+id/menu_item9"
+        android:title="Access Non-Exported Activity via Proxy Activity"/>
+    <item
+        android:id="@+id/menu_item10"
+        android:title="DOS Via Broadcast Receiver"/>
+    <!-- Add more items as needed -->
+</menu>

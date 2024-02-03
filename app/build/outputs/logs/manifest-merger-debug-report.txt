@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-74:12
-INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-74:12
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:2:1-88:12
 MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zinjacoder/.gradle/caches/transforms-3/61638b3bc388db45777a4a3e51ffbc77/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zinjacoder/.gradle/caches/transforms-3/9c2056dd2a18c69b65c954a77c0c6fb0/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
@@ -63,17 +63,25 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
 		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:7:22-71
 uses-permission#android.permission.INTERNET
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:5-67
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:7:5-72
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:9:5-72
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:7:22-69
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:9:22-69
 application
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:9:5-72:19
-INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:9:5-72:19
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:11:5-86:19
+INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:11:5-86:19
 MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /home/zinjacoder/.gradle/caches/transforms-3/61513e7d54bbc2ab9345fdf5bc11db91/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zinjacoder/.gradle/caches/transforms-3/61638b3bc388db45777a4a3e51ffbc77/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -95,131 +103,149 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zinja
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /home/zinjacoder/.gradle/caches/transforms-3/b2bf0ae81dd834122ecbafe1eeb665df/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:15:9-43
 	android:icon
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:11:9-38
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:13:9-38
 	android:allowBackup
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:17:9-42
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:19:9-42
 	android:networkSecurityConfig
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:15:9-69
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:17:9-69
 	android:usesCleartextTraffic
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:16:9-44
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:9-44
 activity#com.zin.dvac.FetchXmlActivity
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:9-54
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:9-54
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:18:19-51
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:19-51
 activity#com.zin.dvac.RegisterActivity
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:19:9-54
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:9-54
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:19:19-51
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:19-51
 activity#com.zin.dvac.PasswordDetailActivity
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:9-60
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:22:9-60
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:20:19-57
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:22:19-57
 activity#com.zin.dvac.ChangePasswordActivity
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:9-31:16
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:23:9-32:16
 	android:exported
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:58-81
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:23:58-81
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:21:19-57
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:pathPrefix:/reset+data:scheme:dvac
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:22:13-30:29
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:23:19-57
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:dvac
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:13-31:29
 action#android.intent.action.VIEW
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:17-76
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:26:17-76
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:24:27-73
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:26:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:17-78
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:17-78
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:25:27-75
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:27-75
 data
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:27:17-29:51
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:29:17-30:45
 	android:scheme
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:28:21-42
-	android:pathPrefix
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:29:21-48
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:30:21-42
 activity#com.zin.dvac.LoginActivity
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:32:9-37:20
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:33:9-38:20
 	android:exported
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:32:49-72
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:33:49-72
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:32:19-48
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:33:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:33:13-36:25
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:34:13-37:25
 action#android.intent.action.MAIN
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:34:13-65
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:13-65
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:34:21-62
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:13-73
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:36:13-73
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:35:23-70
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:36:23-70
 activity#com.zin.dvac.PasswordManagerActivity
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:9-84
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:9-40:20
 	android:exported
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:59-82
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:59-82
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:38:19-58
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:19-58
+activity#com.zin.dvac.WebViewActivity
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:41:9-43:20
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:42:45-69
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:42:13-44
 activity#com.zin.dvac.AddPasswordActivity
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:9-57
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:45:9-57
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:39:19-54
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:45:19-54
 provider#com.zin.dvac.PasswordProvider
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:43:9-47:39
-	android:enabled
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:46:13-35
-	android:authorities
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:45:13-56
-	android:exported
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:47:13-36
-	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:44:13-45
-receiver#com.zin.dvac.ChangePasswordReceiver
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:49:9-57:20
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:49:9-53:39
 	android:enabled
 		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:52:13-35
+	android:authorities
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:51:13-56
 	android:exported
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:51:13-36
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:53:13-36
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:50:13-51
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:50:13-45
+receiver#com.zin.dvac.ChangePasswordReceiver
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:55:9-63:20
+	android:enabled
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:58:13-35
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:56:13-51
 intent-filter#action:name:com.zin.dvac.CHANGE_PASSWORD_ACTION+category:name:android.intent.category.DEFAULT
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:53:13-56:29
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:59:13-62:29
 action#com.zin.dvac.CHANGE_PASSWORD_ACTION
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:54:17-77
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:60:17-77
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:54:25-75
-service#com.zin.dvac.PasswordSocketService
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:59:9-62:19
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:60:25-75
+receiver#com.zin.dvac.ShutDownReceiver
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:65:9-71:20
 	android:enabled
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:61:13-35
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:67:13-35
 	android:exported
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:60:13-36
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:59:18-55
-service#com.zin.dvac.PasswordExportService
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:64:9-71:19
-	android:enabled
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:66:13-35
-	android:exported
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:67:13-36
-	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:65:13-50
-intent-filter#action:name:com.zin.dvac.PASSWORD_EXPORT_ACTION
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:65:19-51
+intent-filter#action:name:android.intent.action.ACTION_SHUTDOWN
 ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:68:13-70:29
-action#com.zin.dvac.PASSWORD_EXPORT_ACTION
-ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:69:17-78
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:69:17-80
 	android:name
-		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:69:25-75
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:69:25-77
+service#com.zin.dvac.PasswordSocketService
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:73:9-76:19
+	android:enabled
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:75:13-35
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:73:18-55
+service#com.zin.dvac.PasswordExportService
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:78:9-85:19
+	android:enabled
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:80:13-35
+	android:exported
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:81:13-36
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:79:13-50
+intent-filter#action:name:com.zin.dvac.PASSWORD_EXPORT_ACTION
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:82:13-84:29
+action#com.zin.dvac.PASSWORD_EXPORT_ACTION
+ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:83:17-78
+	android:name
+		ADDED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml:83:25-75
 uses-sdk
 INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/src/main/AndroidManifest.xml

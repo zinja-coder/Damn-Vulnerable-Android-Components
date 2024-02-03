@@ -44,13 +44,13 @@ public class ChangePasswordActivity extends AppCompatActivity {
 
             // Validate the token with the server
             validateResetToken(token, ipAddress);
-        } else if (intent.hasExtra("existingPassword") && intent.hasExtra("newPassword")) {
+        } else if (intent.hasExtra("currentPassword") && intent.hasExtra("newPassword")) {
             // If intent data is not a URI and contains the current password,
             // proceed with the change password flow without checking for a valid token
-            String existingPassword = intent.getStringExtra("existingPassword");
+            String currentPassword = intent.getStringExtra("currentPassword");
             String newPassword = intent.getStringExtra("newPassword");
-            changePassword(newPassword);
-            renderUI(existingPassword, newPassword);
+            changePassword(newPassword,currentPassword);
+            renderUI(currentPassword, newPassword);
         } else {
             // Handle the case where no valid data is provided
             Toast.makeText(this, "Invalid data in the intent", Toast.LENGTH_SHORT).show();
@@ -65,13 +65,16 @@ public class ChangePasswordActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private boolean changePassword(String newPassword) {
+    private boolean changePassword(String newPassword, String currentPassword) {
         SharedPreferences preferences = getSharedPreferences(PREF_NAME, MODE_PRIVATE);
         SharedPreferences.Editor editor = preferences.edit();
-        editor.putString(KEY_PASSWORD, newPassword);
-        editor.apply();
+        if(currentPassword.equals(preferences.getString(KEY_PASSWORD,"def"))){
 
-        return true;
+            editor.putString(KEY_PASSWORD, newPassword);
+            editor.apply();
+            return true;
+        }else{
+        return false;}
     }
 
     private void validateResetToken(String token, String ipAddress) {
@@ -125,7 +128,7 @@ public class ChangePasswordActivity extends AppCompatActivity {
     }
 
     private void renderUI() {
-        final EditText etExistingPassword = findViewById(R.id.etExistingPassword);
+        final EditText etCurrentPassword = findViewById(R.id.etCurrentPassword);
         final EditText etNewPassword = findViewById(R.id.etNewPassword);
         Button btnChangePassword = findViewById(R.id.btnChange);
 
@@ -137,11 +140,11 @@ public class ChangePasswordActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Get existing and new passwords
-                String existingPassword = etExistingPassword.getText().toString();
+                String currentPassword = etCurrentPassword.getText().toString();
                 String newPassword = etNewPassword.getText().toString();
 
                 // Validate and change password
-                if (changePassword(newPassword)) {
+                if (changePassword(newPassword,currentPassword)) {
                     Toast.makeText(ChangePasswordActivity.this, "Password changed successfully", Toast.LENGTH_SHORT).show();
                     finish(); // Finish the activity after changing the password
                 } else {
@@ -151,12 +154,12 @@ public class ChangePasswordActivity extends AppCompatActivity {
         });
     }
 
-    private void renderUI(String existingPassword, String newPassword) {
-        final EditText etExistingPassword = findViewById(R.id.etExistingPassword);
+    private void renderUI(String currentPassword, String newPassword) {
+        final EditText etCurrentPassword = findViewById(R.id.etCurrentPassword);
         final EditText etNewPassword = findViewById(R.id.etNewPassword);
         Button btnChangePassword = findViewById(R.id.btnChange);
 
-        etExistingPassword.setText(existingPassword);
+        etCurrentPassword.setText(currentPassword);
         etNewPassword.setText(newPassword);
 
         renderUI();

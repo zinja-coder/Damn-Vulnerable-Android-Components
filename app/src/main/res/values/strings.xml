@@ -22,4 +22,6 @@
     <string name="welcome_to_dvac">Welcome to DVAC!</string>
     <string name="go_to_github">Go to Github</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
 </resources>

@@ -1,18 +1,25 @@
 package com.zin.dvac;
 
 import android.Manifest;
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -37,6 +44,8 @@ import android.database.Cursor;
 import android.provider.ContactsContract;
 
 import androidx.annotation.NonNull;
+import android.content.ComponentName;
+
 
 public class PasswordManagerActivity extends AppCompatActivity {
 
@@ -68,6 +77,12 @@ public class PasswordManagerActivity extends AppCompatActivity {
         initializePasswordList();
         initializeRecyclerView();
         createNotificationChannel();
+
+        // Check if the activity is started with an intent
+        Intent incomingIntent = getIntent();
+        if (incomingIntent.hasExtra("webUri")) {
+            handleIncomingIntent(incomingIntent);
+        }
 
         Button btnAddPassword = findViewById(R.id.btnAddPassword);
         Button btnExport = findViewById(R.id.btnExport);
@@ -108,8 +123,7 @@ public class PasswordManagerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Open the ChangePasswordActivity
-                Intent intent = new Intent(PasswordManagerActivity.this, ChangePasswordActivity.class);
-                startActivity(intent);
+                showChangePasswordDialog();
             }
         });
 
@@ -138,6 +152,77 @@ public class PasswordManagerActivity extends AppCompatActivity {
         });
     }
 
+    // Inside handleIncomingIntent method
+    private void handleIncomingIntent(Intent intent) {
+        // Check if the intent has the "webUri" extra
+        if (intent.hasExtra("webUri")) {
+            // The activity was started with a VIEW intent
+            String dataUri = intent.getStringExtra("webUri");
+            if (dataUri != null) {
+                // Pass the incoming intent to WebViewActivity with the received URI
+                Intent webViewIntent = new Intent(intent); // Create a new intent with the original intent
+                webViewIntent.setClass(this, WebViewActivity.class); // Set the class explicitly
+                webViewIntent.putExtra("webUri", dataUri);
+                startActivity(webViewIntent);
+            }
+        }
+    }
+
+
+    private void showChangePasswordDialog() {
+        // Create a custom dialog with input fields
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Change Password");
+
+        // Set up the input
+        final EditText etCurrentPassword = new EditText(this);
+        etCurrentPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        etCurrentPassword.setHint("Current Password");
+
+        final EditText etNewPassword = new EditText(this);
+        etNewPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        etNewPassword.setHint("New Password");
+
+        LinearLayout layout = new LinearLayout(this);
+        layout.setOrientation(LinearLayout.VERTICAL);
+        layout.addView(etCurrentPassword);
+        layout.addView(etNewPassword);
+
+        builder.setView(layout);
+
+        // Set up the buttons
+        builder.setPositiveButton("Change", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                String currentPassword = etCurrentPassword.getText().toString();
+                String newPassword = etNewPassword.getText().toString();
+
+                // Start ChangePasswordActivity with the entered data
+                startChangePasswordActivity(currentPassword, newPassword);
+            }
+        });
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+
+        builder.show();
+    }
+
+    private void startChangePasswordActivity(String currentPassword, String newPassword) {
+        //Intent intent = new Intent(this, ChangePasswordActivity.class);
+        //intent.setComponent(new ComponentName("com.zin.dvac", "com.zin.dvac.ChangePasswordReceiver"));
+        Intent intent = new Intent();
+        intent.setAction("com.zin.dvac.CHANGE_PASSWORD_ACTION");
+        intent.putExtra("currentPassword", currentPassword);
+        intent.putExtra("newPassword", newPassword);
+        sendBroadcast(intent);
+        intent.setClass(this,ChangePasswordActivity.class);
+        startActivity(intent);
+
+    }
 
 
     // Method to read contacts once permission is granted
@@ -262,6 +347,17 @@ public class PasswordManagerActivity extends AppCompatActivity {
         }
     }
 
+    public static void saveLocalData() {
+        Log.i("SHUTDOWN RECEIVED","Saving Local Data");
+    }
+
+    public static void stopActivity(Context context) {
+        //if (context instanceof Activity) {
+            ((Activity) context).finishAffinity();
+        //this.finishAffinity();
+        //}
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -319,12 +415,7 @@ public class PasswordManagerActivity extends AppCompatActivity {
         // Create an intent to start the AddPasswordActivity
         Intent addPasswordIntent = new Intent();
         addPasswordIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        PendingIntent pendingIntent = PendingIntent.getActivity(
-                this,
-                0,
-                addPasswordIntent,
-                PendingIntent.FLAG_UPDATE_CURRENT
-        );
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,addPasswordIntent, PendingIntent.FLAG_MUTABLE);
 
         // Build the notification
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)

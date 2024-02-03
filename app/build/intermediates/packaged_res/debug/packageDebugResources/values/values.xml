@@ -7,6 +7,7 @@
     <string name="app_name">DVAC</string>
     <string name="backdoor">BACKDOOR</string>
     <string name="change_password">Change Password</string>
+    <string name="close_drawer">close drawer</string>
     <string name="delete">Delete</string>
     <string name="delete_password">Delete Password</string>
     <string name="description">Description</string>
@@ -20,6 +21,7 @@
     <string name="import_database">Import Database</string>
     <string name="login">Login</string>
     <string name="new_password">New Password</string>
+    <string name="open_drawer">open drawer</string>
     <string name="password">Password</string>
     <string name="register">Register</string>
     <string name="register_password">Register Password</string>

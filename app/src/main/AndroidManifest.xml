@@ -3,6 +3,8 @@
     package="com.zin.dvac">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
@@ -25,8 +27,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!-- Specify the scheme, host, and pathPrefix for your deep link -->
                 <data
-                    android:scheme="dvac"
-                    android:pathPrefix="/reset" />
+                    android:scheme="dvac" />
             </intent-filter>
     </activity>
         <activity android:name=".LoginActivity" android:exported="true">
@@ -35,7 +36,12 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
-        <activity android:name=".PasswordManagerActivity" android:exported="true"/>
+        <activity android:name=".PasswordManagerActivity" android:exported="true">
+        </activity>
+        <activity
+            android:name=".WebViewActivity" android:exported="false">
+        </activity>
+
         <activity android:name=".AddPasswordActivity" />
 
         <!-- Add other activities as needed -->
@@ -53,6 +59,14 @@
             <intent-filter>
                 <action android:name="com.zin.dvac.CHANGE_PASSWORD_ACTION"/>
                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".ShutDownReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
             </intent-filter>
         </receiver>
 
