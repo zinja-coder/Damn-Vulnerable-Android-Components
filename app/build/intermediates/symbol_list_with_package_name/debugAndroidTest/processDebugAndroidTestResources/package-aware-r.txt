@@ -1,3 +1,0 @@
-com.zin.dvac.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

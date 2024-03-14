@@ -62,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
         btnForgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showForgotPasswordDialog();
+                    showForgotPasswordDialog();
             }
         });
     }
@@ -101,7 +101,7 @@ public class LoginActivity extends AppCompatActivity {
                 String hostIP = input.getText().toString();
                 sendForgotPasswordRequest(hostIP);
             }
-        });
+       });
 
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
@@ -118,7 +118,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // Replace "http://your-backend-server-ip:5000" with your actual server address
         Request request = new Request.Builder()
-                .url("http://" + hostIP + ":5000/send_password_reset")
+                .url("http://"+hostIP+":5000/send_password_reset")
                 .post(RequestBody.create(MediaType.parse("application/json; charset=utf-8"), "{\"user_id\":\"your_user_id\"}"))
                 .build();
 

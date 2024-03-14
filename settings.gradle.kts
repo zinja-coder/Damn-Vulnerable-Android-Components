@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "passwordmanager"
+rootProject.name = "DVAC"
 include(":app")
  

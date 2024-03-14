@@ -1,6 +1,0 @@
-com.zin.dvac.test.app-annotation-experimental-1.3.0-0 /home/zinjacoder/.gradle/caches/transforms-3/0a037b42cb10513c37b958c93435c4da/transformed/annotation-experimental-1.3.0/res
-com.zin.dvac.test.app-core-1.5.0-1 /home/zinjacoder/.gradle/caches/transforms-3/888daf8479fc46a3aaf8da0469ab4b97/transformed/core-1.5.0/res
-com.zin.dvac.test.app-androidTest-2 /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/build/generated/res/resValues/androidTest/debug
-com.zin.dvac.test.app-mergeDebugAndroidTestResources-3 /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.zin.dvac.test.app-mergeDebugAndroidTestResources-4 /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.zin.dvac.test.app-debugAndroidTest-5 /home/zinjacoder/AndroidStudioProjects/passwordmanager2/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

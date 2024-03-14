@@ -122,7 +122,7 @@ public class ChangePasswordActivity extends AppCompatActivity {
     }
 
     private void redirectToLoginActivity() {
-        Intent intent = new Intent(this, LoginActivity.class);
+       Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         finish();
     }

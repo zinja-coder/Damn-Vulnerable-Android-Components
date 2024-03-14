@@ -1,6 +1,5 @@
 package com.zin.dvac;
 
-// src/main/java/com.zin.dvac/PasswordProvider.java
 import android.content.ContentProvider;
 import android.content.ContentValues;
 import android.content.UriMatcher;
@@ -43,14 +42,9 @@ public class PasswordProvider extends ContentProvider {
         return (database != null);
     }
 
-    // Implement other required methods: query, insert, update, delete
-    // ...
-
-    // Example query method
     @Override
     public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
-        // Implement your query logic here
-        // Example:
+
         if (uriMatcher.match(uri) == PASSWORD_ID) {
             selection = DatabaseHelper.COLUMN_ID + "=" + uri.getLastPathSegment();
         }
@@ -64,7 +58,7 @@ public class PasswordProvider extends ContentProvider {
         return null;
     }
 
-    @Override // android.content.ContentProvider
+    /*@Override // android.content.ContentProvider
     public ParcelFileDescriptor openFile(Uri uri, String mode) {
         int modeCode;
         if (mode.equals("r")) {
@@ -83,7 +77,7 @@ public class PasswordProvider extends ContentProvider {
             //Log.e(TAG, "ERROR: unable to open file: " + e.getMessage());
             return null;
         }
-    }
+    }*/
 
     @Nullable
     @Override

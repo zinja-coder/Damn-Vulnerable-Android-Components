@@ -79,6 +79,7 @@ public class PasswordManagerActivity extends AppCompatActivity {
         createNotificationChannel();
 
         // Check if the activity is started with an intent
+        //Intent incomingIntent = getIntent();
         Intent incomingIntent = getIntent();
         if (incomingIntent.hasExtra("webUri")) {
             handleIncomingIntent(incomingIntent);
@@ -155,16 +156,11 @@ public class PasswordManagerActivity extends AppCompatActivity {
     // Inside handleIncomingIntent method
     private void handleIncomingIntent(Intent intent) {
         // Check if the intent has the "webUri" extra
-        if (intent.hasExtra("webUri")) {
-            // The activity was started with a VIEW intent
-            String dataUri = intent.getStringExtra("webUri");
-            if (dataUri != null) {
-                // Pass the incoming intent to WebViewActivity with the received URI
-                Intent webViewIntent = new Intent(intent); // Create a new intent with the original intent
-                webViewIntent.setClass(this, WebViewActivity.class); // Set the class explicitly
-                webViewIntent.putExtra("webUri", dataUri);
-                startActivity(webViewIntent);
-            }
+        String dataUri;
+        if (intent.hasExtra("webUri") && (dataUri = intent.getStringExtra("webUri")) != null) {
+            Intent webViewIntent = new Intent(this, AuthActivity.class);
+            webViewIntent.putExtra("webUri", dataUri);
+            startActivity(webViewIntent);
         }
     }
 

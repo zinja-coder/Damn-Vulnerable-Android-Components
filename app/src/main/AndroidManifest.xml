@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zin.dvac">
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
-    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
@@ -18,39 +18,60 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.DVAC">
         <activity android:name=".FetchXmlActivity" />
+
         <activity android:name=".RegisterActivity" />
+
         <activity android:name=".PasswordDetailActivity" />
+
         <activity android:name=".ChangePasswordActivity" android:exported="true">
-            <intent-filter>
+            <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <!-- Specify the scheme, host, and pathPrefix for your deep link -->
-                <data
-                    android:scheme="dvac" />
+                <data android:scheme="http"/>
             </intent-filter>
-    </activity>
+        </activity>
+
         <activity android:name=".LoginActivity" android:exported="true">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
+
         <activity android:name=".PasswordManagerActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:host="zinja-coder.github.io" android:scheme="https"></data>
+            </intent-filter>
         </activity>
+
         <activity
-            android:name=".WebViewActivity" android:exported="false">
+            android:name=".AuthActivity" android:exported="false">
         </activity>
 
         <activity android:name=".AddPasswordActivity" />
 
-        <!-- Add other activities as needed -->
+        <activity android:name=".SecretFileActivity" android:exported="true"/>
 
         <provider
             android:name=".PasswordProvider"
             android:authorities="com.zin.dvac.provider"
-            android:enabled="true"
-            android:exported="true" />
+            android:exported="true">
+            <path-permission
+                android:path="/passwords"
+                android:readPermission="com.zin.dvac.READ_PASS"
+                android:writePermission="com.zin.dvac.WRITE_PASS" />
+        </provider>
+
+        <provider
+            android:name=".SecretFileProvider"
+            android:authorities="com.zin.dvac.secret"
+            android:exported="false"
+            android:grantUriPermissions="true">
+        </provider>
 
         <receiver
             android:name=".ChangePasswordReceiver"
@@ -83,6 +104,7 @@
                 <action android:name="com.zin.dvac.PASSWORD_EXPORT_ACTION" />
             </intent-filter>
         </service>
+
     </application>
 
 </manifest>
