@@ -12,7 +12,7 @@
         android:layout_margin="16dp"
         android:background="@drawable/row_border"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/avatar1" />
+        android:src="@drawable/dvac" />
 
     <EditText
         android:id="@+id/editTextLoginPassword"

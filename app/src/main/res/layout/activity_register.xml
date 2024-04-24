@@ -7,12 +7,17 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="93dp"
-        android:layout_margin="16dp"
-        android:background="@drawable/row_border"
+        android:layout_width="198dp"
+        android:layout_height="102dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/avatar1" />
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/row_border"
+        android:src="@drawable/dvac" />
     <TextView
         android:id="@+id/welcomeRegister"
         android:layout_centerHorizontal="true"
