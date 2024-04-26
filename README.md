@@ -104,12 +104,10 @@ DVAC is licensed under the GNU General Public License (GPL), which means that it
 
 If you have any questions, suggestions, or feedback, feel free to connect with me on:
 
-    LinkedIn: jafar-pathan
-    Twitter: @zinja_coder
-    Threads: jafar.khan.pathan_
+LinkedIn: [jafar-pathan](https://www.linkedin.com/in/jafar-pathan/)
+Twitter: [@zinja_coder](https://twitter.com/zinja_coder)
+Threads: [jafar.khan.pathan_](https://www.threads.net/@jafar.khan.pathan_)
 
 ## My Other Project
-
-Check out my other project:
 
 **The Browser Bruter**: The **FIRST-EVER!** browser-based web application penetration testing tool - 
