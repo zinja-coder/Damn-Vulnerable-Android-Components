@@ -1,8 +1,6 @@
-package com.zin.dvac;// src/main/java/com.zin.dvac/XMLExporter.java
+package com.zin.dvac;
+
 import android.util.Xml;
-
-import com.zin.dvac.DatabaseHelper;
-
 import org.xmlpull.v1.XmlSerializer;
 import java.io.IOException;
 import java.io.OutputStream;

@@ -18,10 +18,11 @@
     <string name="register_password">Register Password</string>
     <string name="delete_password">Delete Password</string>
     <string name="register">Register</string>
-    <string name="JafarPathan">An intentionally vulnerable Android application to demonstrate vulnerabilities in application components. By Jafar Pathan (https://github.com/zinja-coder)</string>
+    <string name="JafarPathan">An intentionally vulnerable Android application to demonstrate vulnerabilities in application components inspired from old sieve lab. By Jafar Pathan (https://github.com/zinja-coder). Legal Warning: This Damn Vulnerable Android Components (DVAC) APK is provided for educational and ethical purpose only. Users are solely responsible for ensuring compliance with all applicable laws and regulations, and the developer(s) disclaim any liability for misuse or damage cause by DVAC.</string>
     <string name="welcome_to_dvac">Welcome to DVAC!</string>
     <string name="go_to_github">Go to Github</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="open_drawer">open drawer</string>
     <string name="close_drawer">close drawer</string>
+    <string name="vulnerabilities">Vulnerabilities</string>
 </resources>

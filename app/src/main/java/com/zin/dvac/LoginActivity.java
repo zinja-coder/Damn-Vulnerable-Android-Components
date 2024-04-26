@@ -59,13 +59,13 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         // Add the Forgot Password button and its click listener
-        Button btnForgotPassword = findViewById(R.id.btnForgotPassword);
+       /* Button btnForgotPassword = findViewById(R.id.btnForgotPassword);
         btnForgotPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                     showForgotPasswordDialog();
             }
-        });
+        });*/
     }
 
     private boolean isFirstLaunch() {

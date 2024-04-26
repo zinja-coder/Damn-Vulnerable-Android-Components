@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PasswordManagerActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/cardview_dark_background"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:background="@drawable/row_border"
+                android:padding="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:text="1. Hardcoded Credentials"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border"
+                android:padding="10dp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="Hint: Look into strings.xml and check for base64"
+                android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="2. Bypass Login via Exported Activity"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Look Manifest.xml and found the exported activity, launch it directly."
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="3. Insecure Storage"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: shared preference"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="4. Exported Activity with Intent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Shared Preference, Change Password"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="5. Insecure Broadcast Reciever"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Hint: Shared Preference, Change Password"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="6. SQL Injection Content Provider"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Look into strings.xml and check for provider and their URI"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="7. Path Traversal Content Provider"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Look into strings.xml and check for provider, look for FileParcelDescriptor"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="8. Exposed Service over ports"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Look into strings.xml and check for service and the port, PasswordSocketService"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="9. Exposed Service over Messaging"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Look into strings.xml and check for service, PasswordExportService"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="10. Deep Link Hijack"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: ForgotPassword?"
+                    android:textSize="10sp" />
+            </LinearLayout>-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="10. Privilege Escalation - Pending Intent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: Read Contact Permission, Notification"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="11. DOS via Broadcast Receiver"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: ShutDownReceiver"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="12. Broadcast Sniffing"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: ChangePasswordReceiver"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="13. Access Non-Exported Activity"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: WebViewActivity"
+                    android:textSize="10sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/row_border">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="14. Access non-exported Content Provider"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/row_border"
+                    android:padding="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:text="Hint: SecretFileProvider, SecretFileActivity"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- FloatingActionButton -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabOpenGitHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/go_to_github"
+        android:foreground="@drawable/face" />
+
+</RelativeLayout>
+

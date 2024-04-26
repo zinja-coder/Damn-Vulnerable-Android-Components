@@ -8,8 +8,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 import android.os.ParcelFileDescriptor;
-import android.text.TextUtils;
-import android.util.Log;
 import java.io.File;
 
 import androidx.annotation.NonNull;
@@ -58,7 +56,7 @@ public class PasswordProvider extends ContentProvider {
         return null;
     }
 
-    /*@Override // android.content.ContentProvider
+    @Override // android.content.ContentProvider
     public ParcelFileDescriptor openFile(Uri uri, String mode) {
         int modeCode;
         if (mode.equals("r")) {
@@ -77,7 +75,7 @@ public class PasswordProvider extends ContentProvider {
             //Log.e(TAG, "ERROR: unable to open file: " + e.getMessage());
             return null;
         }
-    }*/
+    }
 
     @Nullable
     @Override

@@ -20,8 +20,6 @@ public class PasswordExportService extends Service {
     // Messenger for communicating with clients
     private final Messenger messenger = new Messenger(new ExportHandler());
     private static final String TAG = "PasswordExportService";
-   // private int NOTIFICATION = R.string.app_name;
-   // private NotificationManager nManager;
     private Messenger responseHandler;
     private Messenger serviceHandler;
     private Looper serviceLooper;

@@ -1,4 +1,3 @@
-// src/main/java/com.zin.dvac/PasswordAdapter.java
 package com.zin.dvac;
 
 import android.view.LayoutInflater;

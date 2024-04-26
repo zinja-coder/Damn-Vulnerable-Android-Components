@@ -43,10 +43,6 @@ import java.util.List;
 import android.database.Cursor;
 import android.provider.ContactsContract;
 
-import androidx.annotation.NonNull;
-import android.content.ComponentName;
-
-
 public class PasswordManagerActivity extends AppCompatActivity {
 
     private static final int REQUEST_PERMISSIONS_CODE = 100;
@@ -89,6 +85,7 @@ public class PasswordManagerActivity extends AppCompatActivity {
         Button btnExport = findViewById(R.id.btnExport);
         Button btnImport = findViewById(R.id.btnImport);
         Button btnFetchXML = findViewById(R.id.btnFetchXml);
+        Button btnVulnerabilities = findViewById(R.id.btnVulnerabilities);
 
         copyRawResourceToDataDir(R.raw.secret, SECRET_FILE_NAME);
         Button btnChangePassword = findViewById(R.id.btnChangePassword); // Added button
@@ -110,6 +107,16 @@ public class PasswordManagerActivity extends AppCompatActivity {
 
         // Create a notification on activity creation
         createAddPasswordNotification();
+
+        // Vulnerabilities list butotn
+        btnVulnerabilities.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open VulnerabilitiesActivity
+                Intent intent = new Intent(PasswordManagerActivity.this, VulnerabilitiesActivity.class);
+                startActivity(intent);
+            }
+        });
 
         btnAddPassword.setOnClickListener(new View.OnClickListener() {
             @Override

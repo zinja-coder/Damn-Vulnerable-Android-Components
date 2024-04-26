@@ -1,4 +1,3 @@
-// src/main/java/com.zin.dvac/AddUserActivity.java
 package com.zin.dvac;
 
 import android.content.Intent;
