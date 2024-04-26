@@ -108,7 +108,7 @@ If you have any questions, suggestions, or feedback, feel free to connect with m
     Twitter: @zinja_coder
     Threads: jafar.khan.pathan_
 
-## 🚀 My Other Project
+## My Other Project
 
 Check out my other project:
 
