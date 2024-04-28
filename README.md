@@ -110,4 +110,4 @@ Threads: [jafar.khan.pathan_](https://www.threads.net/@jafar.khan.pathan_)
 
 ## My Other Project
 
-**The Browser Bruter**: The **FIRST-EVER!** browser-based web application penetration testing tool - 
+[**The Browser Bruter**](https://github.com/netsquare/BrowserBruter): The **FIRST-EVER!** browser-based web application penetration testing tool.
