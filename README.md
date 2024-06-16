@@ -1,3 +1,5 @@
+[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/CostasAK)
+
 # The Damne Vulnerable Android Components - DVAC
 ![dvac](https://github.com/zinja-coder/Damn-Vulnerable-Android-Components/assets/65374935/d1e2dd8a-c6f7-4614-b41e-969fbfd86492)
 
