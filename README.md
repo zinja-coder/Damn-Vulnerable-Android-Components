@@ -108,6 +108,9 @@ LinkedIn: [jafar-pathan](https://www.linkedin.com/in/jafar-pathan/)
 Twitter: [@zinja_coder](https://twitter.com/zinja_coder)
 Threads: [jafar.khan.pathan_](https://www.threads.net/@jafar.khan.pathan_)
 
+## 🌱 Support
+[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/zinjacoder)
+
 ## My Other Project
 
 [**The Browser Bruter**](https://github.com/netsquare/BrowserBruter): The **FIRST-EVER!** browser-based web application penetration testing tool.
